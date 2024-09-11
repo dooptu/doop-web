@@ -1,13 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+// next.config.js
+module.exports = {
   experimental: {
-    appDir: true,
-  },
-  swcMinify: true, // Use SWC for minification if you need it
-  compiler: {
-    // Ensure you are using the SWC compiler for TypeScript/JavaScript
-    styledComponents: true,
-  },
+    // Remove or adjust the options here
+    appDir: false // or remove this line
+  }
 };
-
-module.exports = nextConfig;
